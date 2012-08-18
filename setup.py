@@ -7,8 +7,8 @@ if os.path.isfile("MANIFEST"):
 
 # You may have to change these
 LUA_LIBS = ["lua"]
-LUA_INCDIR = ["/opt/local/include"]
-LUA_LIBDIR = ["/opt/local/lib"]
+LUA_INCDIR = ["/usr/local/include"]
+LUA_LIBDIR = ["/usr/local/lib"]
 
 setup(name="lunatic-python",
       version = "1.0",

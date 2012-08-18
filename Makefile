@@ -12,10 +12,11 @@ all:
 	$(PYTHON) setup.py build
 
 install:
-	$(PYTHON) setup.py install \
-		--root=$(DESTDIR) \
-		--prefix=$(prefix) \
-		--install-scripts=$(bindir)
+	$(PYTHON) setup.py install
+	# $(PYTHON) setup.py install \
+	# 	--root=$(DESTDIR) \
+	# 	--prefix=$(prefix) \
+	# 	--install-scripts=$(bindir)
 
 dist:
 	$(PYTHON) setup.py sdist
